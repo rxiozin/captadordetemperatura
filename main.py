@@ -41,7 +41,7 @@ def formatar_planilha(wb):
 def buscar_previsao():
     try:
         cidade = "São Paulo"
-        API_KEY = "9ce5a7793761ebb6ade5f6fac171a236"
+        API_KEY = "AQUI VOCÊ ADICIONA SUA CHAVE API DO OPENWEATHER"
         link = (
             f"https://api.openweathermap.org/data/2.5/weather"
             f"?q={cidade}&appid={API_KEY}&units=metric&lang=pt_br"
